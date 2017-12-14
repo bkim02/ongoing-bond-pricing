@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		592F6E921FE21EC000E988AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 592F6E911FE21EC000E988AA /* main.cpp */; };
+		592F6E9A1FE24E8D00E988AA /* Bond.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 592F6E991FE24E8D00E988AA /* Bond.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		592F6E8E1FE21EC000E988AA /* bububaba */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bububaba; sourceTree = BUILT_PRODUCTS_DIR; };
 		592F6E911FE21EC000E988AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		592F6E981FE24E2B00E988AA /* Bond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bond.h; sourceTree = "<group>"; };
+		592F6E991FE24E8D00E988AA /* Bond.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bond.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		592F6E851FE21EC000E988AA = {
 			isa = PBXGroup;
 			children = (
-				592F6E901FE21EC000E988AA /* bububaba */,
+				592F6E901FE21EC000E988AA /* simple_bond(annual,semi,quater) */,
 				592F6E8F1FE21EC000E988AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +57,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		592F6E901FE21EC000E988AA /* bububaba */ = {
+		592F6E901FE21EC000E988AA /* simple_bond(annual,semi,quater) */ = {
 			isa = PBXGroup;
 			children = (
 				592F6E911FE21EC000E988AA /* main.cpp */,
+				592F6E981FE24E2B00E988AA /* Bond.h */,
+				592F6E991FE24E8D00E988AA /* Bond.cpp */,
 			);
-			path = bububaba;
+			path = "simple_bond(annual,semi,quater)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592F6E9A1FE24E8D00E988AA /* Bond.cpp in Sources */,
 				592F6E921FE21EC000E988AA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
